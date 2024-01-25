@@ -1,0 +1,32 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+/* The navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color:#d09ed9;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+  }
+  /* Links inside the navbar */
+.navbar a {
+    float: left;
+    display: block;
+    color: #3a0af0;
+    text-align: center;
+    padding: 18px 20px;
+    text-decoration: none;
+  }
+  /* Change background on mouse-over */
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+  /* Main content */
+.main {
+    margin-top: 30px; /* Add a top margin to avoid content overlay */
+  }
